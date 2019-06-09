@@ -77,32 +77,60 @@
 
 <aside>
   <h3> Shipping Details </h3>
-  <table>
-    <tr>
-      <div class="shippingAddress">
+
+      <!--<div class="shippingAddress">-->
         <form action="D:\ghanesh\ghanesh\Y Combinator\Intern Summer 2019\interning Prep Course\HTML_CSS_JS_practice\Chairmaster\Form Data\form data.txt" method="get">
           Name<br><br>
-          <input type="text" name="name" value="John Mike Doe" size="60"><br><br>
+          <input type="text" name="name" value="John Mike Doe" size="60"><a class="editField" href="#">EDIT</a><br><br>
           <i>Handphone number</i><br>
-          <input type="number" name="hpNumber" value="+60123456789" size="40"><br><br>
+          <input type="tel" name="hpNumber" value="+60123456789" size="40"><a class="editField" href="#">EDIT</a><br><br>
+          <input type="email" name="E-mail Address" value="ChairMaster@gmail.com" size="40"><a class="editField" href="#">EDIT</a><br><br>
            <b>Shipping Address</b><br><br>
            <i>House number, street</i><br>
-           <input type="text" name="addLine1" value="20,JALAN HTML5" size="40"><br><br>
+           <input type="text" name="addLine1" value="20,JALAN HTML5" size="40"><a class="editField" href="#">EDIT</a><br><br>
            <i>Residency</i><br>
-           <input type="text" name="addLine2" value="Taman Web Dev" size="40"><br><br>
+           <input type="text" name="addLine2" value="Taman Web Dev" size="40"><a class="editField" href="#">EDIT</a><br><br>
            <i>District</i><br>
-           <input type="text" name="addLine3" value="Bukit CSS3" size="40"><br><br>
+           <input type="text" name="addLine3" value="Bukit CSS3" size="40"><a class="editField" href="#">EDIT</a><br><br>
            <i>Postcode,City</i><br>
-           <input type="text" name="addLine4" value="75400,WorldWideWed" size="40"><br><br>
+           <input type="text" name="addLine4" value="75400,WorldWideWed" size="40"><a class="editField" href="#">EDIT</a><br><br>
           <br>
           <input type="submit"  value="Save">
         </form>
-    </tr>
-  </table>
+      <!--</div>-->
+<!--Order Summar-->
+      <h3>Order Summary</h3>
+
+      <table>
+        <tr>
+          <td>Subtotal (x Items)</td>
+          <td>RM x</td>
+        </tr>
+        <tr>
+          <td>Shipping Fee</td>
+          <td>RM x</td>
+        </tr>
+        <tr>
+          <td>Shipping Fee Disc.</td>
+          <td>-RM x</td>
+        </tr>
+        <tr>
+          <!--Empty Row for space -->
+        </tr>
+        <tr>
+          <!--Empty Row for space -->
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>RM xx</td>
+        </tr>
+      </table><br>
+<!--place order button, generate E-receipt-->
+      <button class="placeOrder">Place Order</button>
 
 </aside>
 
-</div>
+
 
 
 
