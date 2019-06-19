@@ -1,0 +1,23 @@
+<//aside class"other-categories  other-categories-position">
+  <h4>Other Categories</h4>
+  <div class="keyboard-card">
+    <a href="products_keyboard.html">
+      <img src="../Images-2/Decoy_Product_7.jpg" alt="Decoy_Product_7">
+      <h2>Keyboards</h2>
+    </a>
+  </div>
+<!--*******************************Mice***********************************************************-->
+<div class="mice-card">
+  <a href="products_mice.html">
+    <img src="../Images-2/Decoy_Product_8.jpg" alt="Decoy_Product_8">
+    <h2>Mice</h2>
+  </a>
+</div>
+<!--*******************************Mouse-pads*****************************************************-->
+<div class="mouse-pad-card">
+  <a href="products_mouse_pad.html">
+    <img src="../Images-2/Decoy_Product_9.jpg" alt="Decoy_Product_9">
+    <h2>Mouse Pads</h2>
+  </a>
+</div>
+</aside>
