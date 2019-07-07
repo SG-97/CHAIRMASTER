@@ -1,0 +1,78 @@
+:root{
+  --primary-theme-color: #0077B5 /*LinkedInBlue*/;
+  --buttons-color: #0077B5 /*LinkedInBlue*/;
+  --primary-bg-color: transparent;
+  --primary-font-color: white;
+  --img-text-bg-color: rgb(0,0,0,0.2);
+  --img-text-font-size-mobile: 0.8em;
+  --img-text-box-width: 20em;
+  --img-text-box-width-mobile: 15em;
+}
+
+body{
+  font-family: "times new roman",serif;
+  color: var(--primary-font-color);
+
+
+}
+
+.carousel{
+  top: 0;
+  position: absolute;
+
+}
+
+.carousel-inner .carousel-item {
+  height: 100vh;
+  width: 100vw;
+}
+
+.carousel-caption{
+  transform: translate(-5vw,-30vh);
+  background-color: var(--img-text-bg-color);
+  width: var(--img-text-box-width);
+  height: var(--img-text-box-width);
+  text-align: left;
+  padding-left: 2%;
+}
+
+.navbar{
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+.navbar ul {
+  width: 40%;
+}
+
+.nav-item{
+  width: 100%;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 1062px) {
+
+.carousel-item img{
+  height: 100vh;
+  }
+
+.carousel-caption{
+  transform: translateY(-30vh);
+  background-color: var(--img-text-bg-color);
+  width: var(--img-text-box-width-mobile);
+  height: var(--img-text-box-width-mobile);
+  }
+
+.carousel-caption p{
+  font-size: var(--img-text-font-size-mobile);
+  }
+}
+
+/* <h1>Welcome to <br> sivarajbiz.tech</h1>
+  <h5>my website resume<br><br></h5>
+  <p>Here, I showcase some of the <br> web development technologies <br> that I'm familiar with.</p>
+<h1>Bootstrap<br></h1>
+<p>I used Bootstrap 4 for this carousel. Please scroll down.</p>

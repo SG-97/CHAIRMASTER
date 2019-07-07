@@ -59,9 +59,7 @@ img{
   font-size: medium;
 }
 
-.carousel-caption > h2{
-  transform: translateY(-2100%);
-}
+
  /* ***********************************************************Utilities Styling*************************************************************** */
 
 
@@ -70,9 +68,10 @@ img{
   width: 3em;
   height: 3em;
   border-radius: 50%;
-  background-image: url("../Images-2/Decoy_Master_Logo.jpg");
-  background-position: center;
-  opacity: 0.8;
+  background-color: Transparent
+/*  background-image: url("../Images-2/Decoy_Master_Logo.jpg");
+  background-position: center;*/
+  opacity: 1;
 }
 
 .logo a{
@@ -188,12 +187,13 @@ img{
   text-decoration: underline;
 }
 
+
 #overlay{
   display: none;
 }
 
 .carousel-item > img{
-  height: 100%;
+  height: 90vh;
 }
 
  /*box shadow for carousel*/
@@ -224,13 +224,25 @@ img{
 
 
 /* ***********************************************************Page-Specific Styling************************************************************ */
+@media only screen and (max-width: 599px) {
+  .logo-top{
+    top: 2%;
+    right:2%;
+  }
+
+  .hamburger-icon-top{
+    top: 2%;
+    left: 2%;
+  }
+
+}
 
 .logo-top{
-  top: 2%;
+  bottom: 2%;
   right: 2%;
   position: fixed;
   z-index: 1;
-
+  transform: translateY(-5%);
 }
 
 .hamburger-icon-top a{
@@ -242,7 +254,8 @@ img{
 .hamburger-icon-top{
   position: fixed;
   left: 2%;
-  top: 2%;
+  bottom: 2%;
+  transform: translateY(-10%);
   z-index: 1;
 }
 
@@ -253,7 +266,7 @@ img{
 }
 
 .carousel .carousel-inner .carousel-item{
-  height: 90vh;
+  height: 90%;
 }
 
 .info-btn-carousel-position{
@@ -263,6 +276,8 @@ img{
 
 .other-categories-bg{
   background-color: #0d0d0d;
+  height: 10vh;
+  padding: auto;
 }
 .other-categories-position{
   width: 80%;
