@@ -58,7 +58,7 @@ body{
 }
 
 .card{
-  max-width: 50rem;
+  /*max-width: 50rem;*/
   position: absolute;
   top: var(--banner-image-card-position);
   left: 45%;
@@ -72,27 +72,31 @@ body{
   text-align: left;
 }
 
+.card-text{
+  max-width: 21em;
+}
 
-@media only screen and (max-width: 1062px) {
+.main1{
+  page-break-after: always;
+}
 
-
-
-
-.card{
-  max-width: 18rem;
-  position: absolute;
-  top: var(--banner-image-card-position);
-  z-index: 10;
-  text-align: center;
-
+section {
+display: block;
+}
+@media only screen and (max-width: 590px) {
+  .card{
+    font-size: 0.9em;
+    position: fixed;
+    width: auto;
+    height: auto;
+    left: 10%;
 
   }
 
+  .card-title{
+    transform: scale(0.8);
+  }
 
 }
 
-/* <h1>Welcome to <br> sivarajbiz.tech</h1>
-  <h5>my website resume<br><br></h5>
-  <p>Here, I showcase some of the <br> web development technologies <br> that I'm familiar with.</p>
-<h1>Bootstrap<br></h1>
-<p>I used Bootstrap 4 for this carousel. Please scroll down.</p>
+@media only screen and (max-width: 590px) {
