@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="sivarajbiz.css">
     <link rel="stylesheet" href="baseStyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -23,29 +26,111 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav">
         <li class="nav-item"><a href="#" class="nav-link">Home</a> </li>
-        <li class="nav-item"><a href="#" class="nav-link">Learn More</a> </li>
+        <li class="nav-item"><a href="#learnMore" class="nav-link">Learn More</a> </li>
         <li class="nav-item"><a href="#" class="nav-link">Plans & Pricing</a></li>
         <li class="nav-item"> <button class="btn  btn-rounded  btn-contactMe"><a href="#" class="nav-link">Contact Me</a></button></li>
       </ul>
-
     </div>
   </nav>
+    <div onscroll="fadeOut" class="descriptionWrapper">
+      <div class="pgDescription">
+      <span class="adventurousWords">Increase</span> Your <span class="adventurousWords">Sales</span>
+      </div>
+
+      <div class="pgSubDescription">
+      By Verifying Your Business With Google
+      </div>
+    </div>
+
  </div>
 </div>
 
+<main>
+<div class="jumbotron jumbotron-fluid">
+  <div class="pg-section-header">
+    <h1 id="learnMore"><i class="fab fa-leanpub"></i> Learn More: What | Why | How</h1>
+  </div>
+<div class="container">
+  <div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-4  card-border">
+      <img class="cardImage" src="case study/esport_melaka_business_listing_box.jpg" alt="Example of Google Business Listing">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <div class="container-2">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">What</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria- controls="pills-profile" aria-selected="false">Why</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria- controls="pills-contact" aria-selected="false">How</a>
+            </li>
+          </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <h5>What Is A Google Business Listing ?</h5>
+            <p> <span><i class="fas fa-hand-point-left"></i></span> This is an example of what you might get if you searched "esports melaka". The three businesses in the image are known as Google Business Listings.<span><!--deliberate line spacing--></span> <b style="color: silver;" data-toggle="tooltip" title="The first-ranked business gets 30% more clicks than the second or third-ranked businesses !">Did You Know?</b><br><br>
+             These businesses also appear on Google Maps. So, even drivers passing by your store can view your business!
+             </p>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <h5>Why Should You Care ?</h5>
+            <p>People trust search results on the first two pages of Google. This is free-advertising for your business. So, why waste it when you can make use of it to :
+              <ul>
+                <li class="paragraph-stressPoint-li">bring potential customers to YOUR store</li>
+                <li class="paragraph-stressPoint-li">visit YOUR website.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <h5>How I Can Help You ?</h5>
+            <p> I will help you set up and complete the verification process for your business to be listed on Google. If it is already claimed by someone other than you, the actual owner of the business<span>(yes, this is possible)</span>, I will proceed with the process of claiming the business from that individual. Once everything is done, I will hand over the credentials to you.<br><br> However, if you'd like me to manage the listing on Google for you <span>(Plan 2),</span> you may add-on to a monthly payment package for Rm 20/month under Plan 2.
+             </p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
 
+</div>
 
+</div>
 
+</main>
 
+  <!--
+********************************
+<div class="dropdown mr-1">
+  <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#learnMore">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
 
-
-
+-->
 
 
 
 
 
   </body>
+  <script>
+  $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+  });
+  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
